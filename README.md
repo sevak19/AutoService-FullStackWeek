@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Auto Service - Web Application
 
-## Getting Started
+Esta é uma aplicação web full stack desenvolvida com **TypeScript**, **Tailwind CSS**, **Prisma**, **SQL**, **Next.js**, e **ShadCN**. A aplicação é voltada para o serviço de **Auto Service**, onde os usuários podem escolher entre comer no local ou levar, filtrar produtos por categorias, adicionar itens ao carrinho e finalizar a compra de maneira simples.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **TypeScript**: Para garantir tipagem estática e maior segurança durante o desenvolvimento.
+- **Next.js**: Framework React para desenvolvimento de aplicações full stack.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Prisma**: ORM para facilitar a interação com o banco de dados.
+- **SQL**: Banco de dados relacional utilizado para armazenar as informações da aplicação.
+- **ShadCN**: Biblioteca para componentes prontos, otimizados e acessíveis.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Escolha entre **comer aqui** ou **levar**.
+- Filtragem de itens por **categorias**.
+- Sistema de **carrinho** para adicionar e remover itens.
+- Finalização de **compra** integrada.
